@@ -1,9 +1,4 @@
-﻿using GildedRose.Domain.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GildedRose.Domain.Models
+﻿namespace GildedRose.Domain.Models
 {
     public class Item
     {

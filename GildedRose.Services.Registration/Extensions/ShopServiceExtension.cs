@@ -1,8 +1,5 @@
 ﻿using GildedRose.Domain.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GildedRose.Services.Registration.Extensions
 {

@@ -4,20 +4,15 @@ using GildedRose.Domain.Abstractions;
 using GildedRose.Services.Registration.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Collections.Generic;
 
 namespace GildedRose
 {
     class Program
     {
         private static readonly string itemsPath = Environment.GetEnvironmentVariable("itemsPath")
-            ?? 
-            //@"C:\Users\TimKah\source\repos\GildedRose\Data\items.json";
-            throw new InvalidOperationException("You must set the 'itemsPath' environment variable");
+            ?? throw new InvalidOperationException("You must set the 'itemsPath' environment variable");
         private static readonly string itemTypesPath = Environment.GetEnvironmentVariable("itemTypesPath")
-            ?? 
-            //@"C:\Users\TimKah\source\repos\GildedRose\Data\itemtypes.json"; 
-            throw new InvalidOperationException("You must set the 'itemTypesPath' environment variable");
+            ?? throw new InvalidOperationException("You must set the 'itemTypesPath' environment variable");
 
         static void Main(string[] args)
         {
